@@ -19,7 +19,7 @@ FROM silver.pizza_query.pedido
 WHERE descUF != 'São Paulo'
 
 GROUP BY descUF
-HAVING qtdPedidos >= 75 
+--HAVING qtdPedidos >= 75 
 
 ORDER BY qtdPedidos DESC 
 
